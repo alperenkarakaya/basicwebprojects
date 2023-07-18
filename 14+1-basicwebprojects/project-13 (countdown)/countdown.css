@@ -1,0 +1,33 @@
+body{
+    background-color: #4D455D;
+}
+main{
+    display: flex;
+    margin-top: 50px;
+}
+#img-column img{
+    width: 80%;
+    height: 500px;
+    object-fit: cover;
+}
+#countdown-timer{
+    display: flex;
+    gap: 0;
+    justify-content: space-evenly;
+    background:linear-gradient(90deg,#7DB9B6,#E96479);
+    border-radius: 30px ;
+}
+#day-countdown,#hour-countdown,#minute-countdown,#sec-countdown{
+    color: white;
+    background-color: black;
+    width: 20%;
+    height: 200px;
+    text-align: center;
+}
+.timer{
+    font-size: 100px;
+    margin: 0;
+}
+#content-column-text{
+    color: white;
+}

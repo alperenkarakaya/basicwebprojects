@@ -1,0 +1,66 @@
+body{
+    background: linear-gradient(45deg,#b0edfa,#ffbcd4);
+}
+#text1{
+    text-align: center;
+    margin-top: 50px;
+}
+#header-hr{
+    border: solid 5px rgb(200, 0, 200,1);
+    color: rgb(200, 0, 200,1);
+    margin: 25px 45% 75px 45%;
+}
+#selections{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+#selections ul{
+    list-style: none;
+    gap: 15px;
+    padding: 0;
+    display: flex;
+}
+#selections ul li{
+    border: solid 2px rgb(207, 20, 207);
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+    font-size: 1.2rem;
+}
+#selections ul li:hover{
+    background-color: rgb(207, 20, 207);
+    color: white;
+}
+#selections{
+    display: flex;
+}
+#allFoodnDrinks{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#allFoodnDrinks .col-6 img{
+    object-fit: cover;
+    width: 200px;
+    height: 100px;
+    border: solid 2px rgb(207, 20, 207);
+    border-radius: 5px;
+}
+#allFoodnDrinks hr{
+    margin: 5px;
+}
+#menuItem{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+#allFoodnDrinks h2{
+    font-size: 1rem;
+}
+#allFoodnDrinks p{
+    font-size: 0.75rem;
+}
+#info-box-header{
+    display: flex;
+    justify-content: space-between;
+}

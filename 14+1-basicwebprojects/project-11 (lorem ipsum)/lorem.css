@@ -1,0 +1,30 @@
+body{
+    background: linear-gradient(45deg,#331D2C,#A78295);
+    -webkit-text-fill-color: #EFE1D1;
+    height: 100vh;
+}
+#paragraph-generator{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+#header{
+    text-align: center;
+    margin: 100px 0 50px 0;
+}
+#paragraphs{
+    margin: 30px;
+}
+#amount-of-paragraphs,#generator{
+    background-color: #3F2E3E;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+}
+#generator{
+    width:125px;
+}
+#generator:active{
+    font-size: 15px;
+    border:1px solid #EFE1D1;
+}

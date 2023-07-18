@@ -1,0 +1,59 @@
+
+#mainPart{
+    height: 100vh;
+    background-color: rgb(175, 255, 228);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#mainPart div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#reviewBox{
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#topHr{
+    width:100px; 
+    color: rgb(175, 107, 238);
+    border: solid 5px rgb(175, 107, 238) !important;
+}
+#buttonSupriseMe{
+    border: solid 2px black;
+    border-radius: 50px;
+    padding: 3px 20px 3px 20px;
+}
+#buttonSupriseMe:hover{
+    color: white;
+    background-color: black;
+}
+#arrowLeft,#arrowRight{
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+}
+#arrowLeft:active,#arrowRight:active{
+    background-color: rgba(149, 149, 149, 0.467);
+}
+#personImage{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-color: rgb(125, 194, 171) !important;
+    border-width: 7px !important;
+}
+#imageDiv{
+    position: relative;
+}
+#imageIcon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(25%,1200%);
+}

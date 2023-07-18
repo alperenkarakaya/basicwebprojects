@@ -1,0 +1,50 @@
+
+#bg-video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+    position: absolute;
+}
+#buttonS-P{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%,200%);
+    width: 80px;
+    height: 25px;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    #btn-slide{
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        border-radius: 10px;
+        transition: 0.4s;
+    }
+}
+
+#overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+#text-box{
+    position: relative;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.slide-left{
+    background-color: rgb(97, 255, 94);
+    right:50%;
+}
+.slide-right{
+    background-color: rgb(255, 94, 94);
+    left: 50%;
+}

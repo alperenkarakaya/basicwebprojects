@@ -1,0 +1,75 @@
+body{
+    position: relative;
+}
+#mainPage{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+#mainPageBox{
+    width: 500px;
+    height: 250px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#closingTab{
+    width: 500px;
+    height: 220px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+#mainPageImage{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+#mainPageBox-button{
+    border: solid 1px black;
+    padding: 5px 50px 5px 50px;
+    border-radius: 25px;
+}
+#mainPageBox-button:hover{
+    color: white;
+    background-color: black;
+}
+#mainPageBox-text{
+    letter-spacing: 3px;
+    font-size: 50px;
+
+}
+#bg-modal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(79, 221, 246, 0.397);
+    z-index: 2;
+    visibility: hidden;
+}
+#Xbutton{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 3px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 5px 0 0;
+    border: none;
+    width: 30px !important;
+    height: 30px !important;
+}

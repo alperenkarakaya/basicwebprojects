@@ -1,0 +1,93 @@
+body{
+    background: linear-gradient(45deg,#2E8A99,#84A7A1);
+    height: 100vh;
+}
+main{
+    margin: 50px 20% 0 20% ;
+}
+#grocery-box{
+    width: 500px;
+    min-height: 400px;
+    margin: auto;
+    display: flex;
+    gap: 15px;
+    position: relative;
+    background: linear-gradient(45deg,#84a7a1ad,#2e8b999d);;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#grocery-input{
+    width: 400px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border: none;
+    padding: 3px 10px 3px 20px;
+    background: linear-gradient(90deg,#526D82,#9DB2BF);
+    color: rgba(255, 255, 255);
+}
+#grocery-input::placeholder{
+        color: rgba(255, 255, 255, 0.808);
+}
+#grocery-item-list{
+    width: 350px;
+}
+.grocery-item-list-item{
+    display: flex;
+    justify-content: space-between;
+}
+.grocery-item-list-item p{
+    -webkit-text-fill-color: #6D5D6E;
+}
+.clicked-remove{
+    display: none;
+}
+#item-calc{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+}
+.grocery-item-list-buttonX{
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.289);
+    color: rgb(141, 0, 0) !important;
+    font-weight: 600;
+}
+#item-number{
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.436);
+    color: #84A7A1;
+    font-weight: 600;
+    padding: 3px 10px 3px 10px;
+    text-align: center;
+}
+#input-row{
+    display: flex;
+    gap: 0;
+    border-radius: 10px;
+}
+#add-button,#clear-button{
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border: none;
+    border-left: 2px solid #84A7A1;
+    color: rgba(255, 255, 255, 0.9);
+    background: #526D82;
+    padding: 5px 10px 5px 10px;
+    font-size: 18px;
+    width: 70px;
+}
+#clear-button{
+    border-radius: 18px !important;
+    padding: 5px 10px 5px 10px;
+    width: 150px;
+}
+#clear-button-div{
+    display: flex;
+    justify-content: center;
+}

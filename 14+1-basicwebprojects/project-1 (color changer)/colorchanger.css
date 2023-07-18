@@ -1,0 +1,54 @@
+body{
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+#topbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: azure;
+    font-size: 30px;
+}
+#topbarText{
+    padding: 0;
+    cursor: pointer;
+}
+#topbarText:active{
+    color: blueviolet;
+    font-weight: 600;
+}
+#mainText{
+    margin: auto;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#color-changer-box{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#mainText div{
+    background-color: azure;
+    width: 750px;
+    border-radius: 50px;
+    display: flex;
+}
+#mainText h2{
+    font-size: 20px;
+    padding: 5px 25px 5px 25px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: inline-block;
+}
+#mainText h2:hover{
+    color: white;
+    background-color: black;
+}
+#colorButton{
+    height: fit-content;
+}

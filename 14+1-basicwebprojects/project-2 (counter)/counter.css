@@ -1,0 +1,51 @@
+
+body{
+    background-color: rgb(76, 76, 76);
+}
+#counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#counter-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    padding: 30px;
+}
+#btns{
+    display: flex;
+}
+#btnReset{
+    border: 2px solid black;
+    margin: 0 10px 0 10px;
+    padding: 3px 20px 3px 20px;
+    border-radius: 20px;
+}
+#btnUp{
+    border: 2px solid black;
+    margin: 0 10px 0 10px;
+    padding: 3px 20px 3px 20px;
+    border-radius: 20px;
+}
+#btnDown{
+    border: 2px solid black;
+    margin: 0 10px 0 10px;
+    padding: 3px 20px 3px 20px;
+    border-radius: 20px;
+}
+#btns .btn:hover{
+    color: white;
+    background-color: black;
+}
+#numberCounter{
+    margin: 0 0 50px 0;
+    font-size: 100px;
+}
+#counter div{
+    background-color: #EBE9BD;
+}
